@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #7159c1;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+header {
+  background: pink;
+  height: 100px;
+}
+
+main {
+  background: blue;
+  height: 100px;
+}
+
+aside {
+  background: cyan;
+  height: 100px;
+}
+
+footer {
+  background: black;
+  height: 100px;
+}
